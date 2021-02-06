@@ -165,6 +165,7 @@ don't want to join the meetings._**
 
 ### DO NOT CLOSE the main app if you want your meetings to be automated, closing the app will do as it sugggests, close the entire program.
 ### Keep it running till all of your meetings have been automatically joined, after that, you can can close all windows.
+### This program will run correctly only if your local machine's time and date is set correctly and is accurate.
 
 ---
 

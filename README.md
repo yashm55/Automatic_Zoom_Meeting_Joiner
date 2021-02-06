@@ -50,10 +50,29 @@ left corner will be a box and text stating "Add Python [version] to PATH", **Ple
 
 
 
-4. Now, open the folder and double-click the setup file and wait for it to finish installing dependenicies and close itself.
+4. Now, open the folder and double-click the setup file and wait for it to finish installing dependenicies, after it finishes installing dependencies, a message will be printed stating "Dependencies Installed!" and the window will close itself after 5 seconds.
+
 
 ![ss5](https://user-images.githubusercontent.com/42169204/107082633-79648000-681a-11eb-867d-d56afced1afd.PNG)
 
+---
+
+**_If this somehow doesn't work for you, you can do the following step._**
+
+- Open the same folder and press (Shift + right click) click the option saying "Open PowerShell window here", now type the following command:-
+
+![ss](https://user-images.githubusercontent.com/42169204/107117671-f129bd80-68a1-11eb-801d-741996c66269.PNG)
+
+
+```
+python setup.py
+```
+
+- It will download and install the dependencies and if everything goes right, you will see a last message saying "Dependencies Installed!", now you can close that window and follow the instructions below.
+
+![ss1](https://user-images.githubusercontent.com/42169204/107117816-da379b00-68a2-11eb-8931-3bffbfab51c5.png)
+
+---
 
 5. Now, follow the Telegram steps.
 

@@ -42,7 +42,7 @@ left corner will be a box and text stating "Add Python [version] to PATH", **Ple
 ![ss2](https://user-images.githubusercontent.com/42169204/107082351-0d821780-681a-11eb-9cf3-2ac63fcb5b12.PNG)
 
 
-3. Now, click [this link]() and then click "Code" and download it as ZIP. After the download is complete, extract it.
+3. Now, click [this link](https://github.com/evil5198/AutoZoom) and then click "Code" and download it as ZIP. After the download is complete, extract it.
 
 ![ss3](https://user-images.githubusercontent.com/42169204/107082427-2b4f7c80-681a-11eb-9145-456811abe34c.PNG)
 ---

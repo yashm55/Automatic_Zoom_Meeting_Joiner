@@ -16,6 +16,8 @@ Things you are going to need to get this program up and running on your machine.
 (3) Telegram
 
 (4) Network connection
+
+(5) Windows 8.1 or higher. (10 recommended)
 ```
 
 ---
@@ -140,7 +142,8 @@ like this:-
 ---
 
 ---
-![ss12](https://user-images.githubusercontent.com/42169204/107084689-62735d00-681d-11eb-854f-d4147aa01319.PNG)
+![ss3](https://user-images.githubusercontent.com/42169204/107257256-7f4ba280-6a60-11eb-99c6-9788fe817617.png)
+
 
 
 2. Now open telegram and again press on the search icon and search your bot by it's username, once your bot has appeared on the search results, tap on it and start the bot.

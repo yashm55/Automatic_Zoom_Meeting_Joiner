@@ -3,7 +3,7 @@ This program focuses on automating the zoom meetings which these days we all mos
 implementation is a bit different and will **_work best for those people who have to join multiple meetings in a day and the meeting's credentials are different everytime_**. 
 
 # Getting Started
-These instructions will get you a copy of the project up and runnning on yout local machine for using / testing or development purposes.
+These instructions will get you a copy of the project up and runnning on your local machine for using / testing or development purposes.
 
 ### Prerequisites
 Things you are going to need to get this program up and running on your machine.
@@ -42,7 +42,7 @@ left corner will be a box and text stating "Add Python [version] to PATH", **Ple
 ![ss2](https://user-images.githubusercontent.com/42169204/107082351-0d821780-681a-11eb-9cf3-2ac63fcb5b12.PNG)
 
 
-3. Now, click [this link]() and then click "Code" and download it as ZIP. After the download is complete, extract it.
+3. Now, click [this link](https://github.com/evil5198/AutoZoom) and then click "Code" and download it as ZIP. After the download is complete, extract it.
 
 ![ss3](https://user-images.githubusercontent.com/42169204/107082427-2b4f7c80-681a-11eb-9145-456811abe34c.PNG)
 ---
@@ -50,10 +50,29 @@ left corner will be a box and text stating "Add Python [version] to PATH", **Ple
 
 
 
-4. Now, open the folder and double-click the setup file and wait for it to finish installing dependenicies and close itself.
+4. Now, open the folder and double-click the setup file and wait for it to finish installing dependenicies, after it finishes installing dependencies, a message will be printed stating "Dependencies Installed!" and the window will close itself after 5 seconds.
+
 
 ![ss5](https://user-images.githubusercontent.com/42169204/107082633-79648000-681a-11eb-867d-d56afced1afd.PNG)
 
+---
+
+**_If this somehow doesn't work for you, you can do the following step._**
+
+- Open the same folder and press (Shift + right click) click the option saying "Open PowerShell window here", now type the following command:-
+
+![ss](https://user-images.githubusercontent.com/42169204/107117671-f129bd80-68a1-11eb-801d-741996c66269.PNG)
+
+
+```
+python setup.py
+```
+
+- It will download and install the dependencies and if everything goes right, you will see a last message saying "Dependencies Installed!", now you can close that window and follow the instructions below.
+
+![ss1](https://user-images.githubusercontent.com/42169204/107117816-da379b00-68a2-11eb-8931-3bffbfab51c5.png)
+
+---
 
 5. Now, follow the Telegram steps.
 
@@ -102,7 +121,7 @@ token = ""
 ![ss9](https://user-images.githubusercontent.com/42169204/107084303-e24cf780-681c-11eb-84e0-464b8f462fe2.PNG)
 
 
-3. Inside the quotes paste the API Token of your bot which was provided by BotFather. AFter doing that, save the file (CTRL + S) and close the file.
+3. Inside the quotes paste the API Token of your bot which was provided by BotFather. After doing that, save the file (CTRL + S) and close the file.
 
 ![ss10](https://user-images.githubusercontent.com/42169204/107084329-eaa53280-681c-11eb-90e0-d36aea0bf772.PNG)
 
@@ -113,7 +132,9 @@ token = ""
 # Usage
 
 1. Open up the folder which you extracted, and in there look for a file by name "control_gui", and double-click it. This will start the program and you will see a window 
-like this:-
+like this:- 
+
+**_And in background another black window will be opnened (CMD), DO NOT CLOSE THAT WINDOW, you can minimize it instead._**
 
 ![ss11](https://user-images.githubusercontent.com/42169204/107084630-4ff92380-681d-11eb-9279-0b2dc7dfea5b.PNG)
 ---
@@ -131,7 +152,7 @@ like this:-
 ![ss14](https://user-images.githubusercontent.com/42169204/107084773-7dde6800-681d-11eb-8678-4f8cedc2b4b9.jpg)
 
 ```
-*The following steps would only work if you have followed the step 1 and the results match. 
+*The following steps will only work if you have followed the step 1 and the results match. 
 ```
 
 3. Forward or send your bot the messages of zoom meeting's details. 
@@ -160,6 +181,10 @@ don't want to join the meetings._**
 7. **_Select the meeting you want to remove >> and then click Delete_**"
 
 ![ss20](https://user-images.githubusercontent.com/42169204/107111853-48fffe80-6879-11eb-95c9-6758c9ed979a.PNG)
+
+### DO NOT CLOSE the main app if you want your meetings to be automated, closing the app will do as it sugggests, close the entire program.
+### Keep it running till all of your meetings have been automatically joined, after that, you can can close all windows.
+### This program will run correctly only if your local machine's time and date is set correctly and is accurate.
 
 ---
 

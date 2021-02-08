@@ -132,7 +132,7 @@ def OpenEdit_window():
         pass
         
 
-    if len(selected) is not 0: 
+    if len(selected) != 0: 
         newWindow = Toplevel(root)
         newWindow.title("Edit Meeting")
         newWindow.geometry("350x300")
@@ -612,7 +612,7 @@ def OpenEdit_window():
         edited_schedule = f"{month} {Day}, {year} {edited_time} {meridiem}"
         print(selected)
         # cursor = conn.execute("SELECT * FROM meeting_details")
-        if len(edited_time) is not 0:
+        if len(edited_time) != 0:
             cursor = conn.execute("UPDATE meeting_details SET meeting_time = ? WHERE meeting_time = ?", (edited_schedule, splitted[1]))
             conn.commit()
             newWindow.destroy()

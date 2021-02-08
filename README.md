@@ -18,6 +18,8 @@ Things you are going to need to get this program up and running on your machine.
 (4) Network connection
 
 (5) Windows 8.1 or higher. (10 recommended)
+
+(6) Zoom Meetings App.
 ```
 
 ---
@@ -185,7 +187,49 @@ don't want to join the meetings._**
 
 ![ss20](https://user-images.githubusercontent.com/42169204/107111853-48fffe80-6879-11eb-95c9-6758c9ed979a.PNG)
 
+8. New features of editing the meeting timings and adding new meetings through the app itself has been added. To edit a meeting, you have to select the meeting first.
+
+9. For seamless experience, just do the following few steps.
+
+---
+
+## Seamless Experience
+
+**_You have to do these steps for the first time only, ignore if already done._**
+
+1. When your first meeting has been successfully automated, a new tab of chrome will open and you will get a similar pop-up (depends on default browser.)
+
+#### On Chrome:-
+
+![ss2](https://user-images.githubusercontent.com/42169204/107259986-a9eb2a80-6a63-11eb-89e8-b4be8f9e8d1b.png)
+
+---
+
+#### On Edge:-
+
+![ss](https://user-images.githubusercontent.com/42169204/107260050-b96a7380-6a63-11eb-9793-4133cc90d420.png)
+
+---
+
+### Click on always allow checkbox and then let it open zoom meetings.
+
+---
+
+2. After doing the first step, your zoom meetings app will get opened, there you can select the following checkbox (if not already done) and then "join with computer audio" if you don't want to configure your input and output devices, and you usually just "join with computer" audio without any changes to that.
+
+![ss1](https://user-images.githubusercontent.com/42169204/107260655-59c09800-6a64-11eb-8f15-443f35351aab.png)
+
+
+#### Now you can mute yourself and turn your video off, to automate that process as well, there will be an option in zoom settings.
+#### To automatically  turn off video -- Zoom settings >> Video >> Check the option which says "Turn off my video when joining meeting"
+#### To automatically mute yourself -- Zoom settings >> Audio >> Check the option which says "Mute my microphone when joining a meeting"
+#### That's it, you are good to go, have fun :)
+#### If you face any issues, or want a new feature, scroll up and click on the issues tab on this website and open a new issue, and use the existing templates.
+
+---
+
 ### DO NOT CLOSE the main app if you want your meetings to be automated, closing the app will do as it sugggests, close the entire program.
+### DO NOT CLOSE THE TERMINAL / POWERSHELL WINDOW, doing so will terminate the program, instead you can minimize those windows, same goes for the main app window.
 ### Keep it running till all of your meetings have been automatically joined, after that, you can can close all windows.
 ### This program will run correctly only if your local machine's time and date is set correctly and is accurate.
 
@@ -198,7 +242,7 @@ don't want to join the meetings._**
 
 ## License 
 
-This project is licensed under the GNU  License - see the [License.md](https://) file for details.
+This project is licensed under the GNU  License - see the [License.md](https://github.com/evil5198/Automatic_Zoom_Meeting_Joiner/blob/main/LICENSE) file for details.
 
 
 

@@ -93,7 +93,7 @@ Bot""")
 # Schedule pane, and shows the default logo.
 def close_func():
     image1 = ImageTk.PhotoImage(Image.open("Automating_zoom.png"))
-    imageLabel.place(x = 117, y = 10, height = 195, width = 340)
+    imageLabel.place(x = 117, y = 10, height = 145, width = 340)
     seeSchedule.config(text = """Today's
 Schedule""", command=todays_schedule)
     deleteMeeting.config(text = """Delete

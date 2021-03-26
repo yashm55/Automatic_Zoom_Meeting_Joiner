@@ -167,7 +167,7 @@ def OpenEdit_window():
             MonthChosen['values'] = ('Apr')
 
         elif Month ==5:
-            onthChosen['values'] = ('May')
+            MonthChosen['values'] = ('May')
 
         elif Month ==6:
             MonthChosen['values'] = ('Jun')
